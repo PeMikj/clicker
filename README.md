@@ -17,6 +17,28 @@ Organize the project with the following directory layout:
 - **nginx/**: Includes Nginx configuration and setup.
 - **docker-compose.yml**: Defines and manages the Docker services for the entire application.
 
+# Project Name
+
+## Overview
+
+This project consists of a backend built with FastAPI and a frontend built with React. Both services are containerized using Docker and managed with Docker Compose.
+
+## Prerequisites
+
+- Docker
+- Docker Compose
+
+## Setup
+
+git clone <repository-url>
+cd <repository-directory>
+
+docker-compose up -d --build
+
+Frontend: Open your browser and navigate to http://localhost:3000.
+Backend: Open your browser and navigate to http://localhost:8000.
+
+
 ### Sprint Plan
 
 **Duration**: 1 Week
